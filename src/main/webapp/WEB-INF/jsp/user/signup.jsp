@@ -18,9 +18,9 @@
 
 	<div class="container">
 	
-		<section class="content d-flex justify-content-center align-items-center">
+		<section class="content">
 		
-			<div class="box">
+			<div class="user-box">
 				<div class="box-logo text-center">
 					<h1>AnecDOT</h1>
 				</div>
@@ -49,7 +49,7 @@
 				
 				<div class="d-flex justify-content-center mt-3" style="height: 100px">
 					Do you have an account?
-					<a href="/user/login" class="ml-2">Log in</a>
+					<a href="/anecdot/user/login" class="ml-2">Log in</a>
 				</div>
 			</div>
 		

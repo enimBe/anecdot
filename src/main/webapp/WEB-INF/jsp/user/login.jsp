@@ -18,9 +18,9 @@
 
 	<div class="container">
 	
-		<section class="content d-flex justify-content-center align-items-center">
+		<section class="content">
 		
-			<div class="box">
+			<div class="user-box">
 				<div class="box-logo text-center">
 					<h1>AnecDOT</h1>
 				</div>
@@ -39,7 +39,7 @@
 				
 				<div class="d-flex justify-content-center mt-3" style="height: 100px">
 					Do you want to join?
-					<a href="/user/signup" class="ml-2">Sign up</a>
+					<a href="/anecdot/user/signup" class="ml-2">Sign up</a>
 				</div>
 			</div>
 			
@@ -75,7 +75,8 @@
 					data:{"userID":userID, "password":password},
 					success:function(data) {
 						if(data.result == "success") {
-							location.href="/timeline";
+							// 임시 연결
+							location.href="/anecdot/post/create";
 						} else {
 							alert("Check your ID/Password");
 						}
